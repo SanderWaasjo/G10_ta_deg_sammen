@@ -13,10 +13,15 @@ body{
 /* ---------- header ---------- */
 
 .header {
-    text-align: center;
     padding: 50px 20px 40px;
     background: #111;
     color: white;
+}
+
+.header-inner{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .hero-title {
@@ -109,18 +114,60 @@ a:focus-visible{
 /* ---------- info ---------- */
 
 .info{
-    max-width:700px;
-    margin:90px auto;
+    max-width:600px;
+    margin:100px auto;
     padding:0 30px;
-    line-height:1.9;
+    text-align: center;
 }
 
 .info h2{
-    margin-bottom:20px;
+    margin-bottom:14px;
 }
 
-.info ul{
-    padding-left: 20px;
+.info-lead{
+    color:#847a70;
+    margin-bottom:36px;
+    line-height:1.6;
+}
+
+.info-steps{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    text-align: left;
+    max-width: 380px;
+    margin: 0 auto;
+}
+
+.info-steps li{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: #f8f5f0;
+    border-radius: 14px;
+    padding: 14px 20px;
+    box-shadow: 0 6px 18px rgba(0,0,0,.05);
+}
+
+.step-num{
+    flex-shrink: 0;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #6a7a63;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-note{
+    margin-top: 28px;
+    font-size: 14px;
+    color: #847a70;
 }
 
 /* ---------- footer ---------- */
