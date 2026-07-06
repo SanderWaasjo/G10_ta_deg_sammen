@@ -14,7 +14,7 @@ body{
 
 .header {
     padding: 50px 20px 40px;
-    background: #111;
+    background: #5b2020;
     color: white;
 }
 
@@ -148,6 +148,11 @@ a:focus-visible{
     border-radius: 14px;
     padding: 14px 20px;
     box-shadow: 0 6px 18px rgba(0,0,0,.05);
+    list-style: none;
+}
+
+.info-steps li::marker{
+    content: "";
 }
 
 .step-num{
